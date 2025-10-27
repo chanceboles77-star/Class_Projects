@@ -1,0 +1,28 @@
+body {
+    background-color: #D5E5F2;
+}
+
+#container {
+    background-color: #6C6373;
+    width: 950px;
+    margin: 30px auto;
+    border: 5px solid #72A603;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+header {
+    text-align: center;
+    padding: 60px;
+}
+
+header h1 {
+    color: #F27405;
+    font-size: 25px;
+}
+
+nav {
+    text-align: center;
+    border-top: 4px solid #72A603;
+    border-bottom: 4px solid #72A603;
+}
