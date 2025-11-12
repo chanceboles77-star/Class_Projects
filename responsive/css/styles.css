@@ -1,0 +1,181 @@
+/*global styles*/
+
+body {
+    background-color: #75BFA4;
+}
+
+header{
+    text-align: center;
+}
+
+main h2{
+    text-align: center;
+}
+
+main h3{
+    text-align: center;
+}
+
+img {
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+a {
+    color: black;
+}
+
+a:hover{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
+footer{
+    text-align: center;
+}
+
+iframe{
+    display: block;
+    margin: 20px;
+    width: 65%;
+    height: 450px;
+}
+
+.contact{
+    text-align: center;
+}
+
+/*mobile styles*/
+
+#container{
+    padding: 10px;
+    border: 4px solid #6E1B13;
+    border-radius: 10px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li a{
+    display: block;
+    background-color: antiquewhite;
+    height: 30px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    border-bottom: 4px solid #6E1B13;
+}
+
+nav li a:hover {
+    background-color: #6E1B13;
+}
+
+.multi_col{
+    padding: 10px;
+}
+
+/* tablet styles*/
+
+@media (min-width: 768px) {
+    body{
+        background-color: #6E1B13;
+    }
+
+    #container{
+    padding: 10px;
+    border: 4px solid #BF6B04;
+    border-radius: 10px;
+}
+
+    nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    background-color: #75BFA4;
+    color: #6E1B13;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid;
+    box-shadow: 2px 2px 5px #75BFA4;
+}
+
+nav li a:hover{
+    color: #BFA004;
+    background-color: black;
+}
+
+}
+
+/* desktop styles*/
+
+@media (min-width: 1024px){
+
+    body{
+        background-color: #BF6B04;
+    }
+
+     #container{
+    padding: 10px;
+    border: 4px solid #7C8C03;
+    border-radius: 10px;
+}
+
+       nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    background-color: #7C8C03;
+    color: #6E1B13;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid;
+    box-shadow: 2px 2px 5px #75BFA4;
+}
+
+nav li a:hover{
+    color: #BFA004;
+    background-color: black;
+}
+
+hr{
+    border: 5px solid #BF6B04;
+}
+
+.gallery{
+    display: flex;
+}
+
+.food{
+    border: 2px solid #7C8C03;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.food img{
+    width: 100%;
+}
+
+}
