@@ -1,0 +1,284 @@
+/*global styles*/
+body{
+    background-color: #D9D4BA;
+    font-family: "Amiri", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#container{
+    padding: 10px;
+    border: 4px solid #A67244;
+    border-radius: 10px;
+}
+
+header{
+    text-align: center;
+}
+
+main h2{
+    text-align: center;
+       color: #736855;
+  text-shadow: 1px 1px 2px black, 0 0 25px #65858C, 0 0 5px darkblue;
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  
+  
+}
+
+main h3{
+    text-align: center;
+        color: #D9D4BA;
+  text-shadow: 1px 1px 2px black, 0 0 25px #65858C, 0 0 5px darkblue;
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+   
+}
+
+h1 {
+  color: #D9D4BA;
+  text-shadow: 1px 1px 2px black, 0 0 25px #65858C, 0 0 5px darkblue;
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+}
+
+img {
+    display:block;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.responsive {
+    width: 50%;
+    height: auto;
+     box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+a {
+    color: black;
+}
+
+a:hover{
+    color:crimson;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+}
+
+iframe{
+    display: block;
+    margin: 20px;
+    width: 100%;
+    height: 450px;
+}
+
+.contact{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li a{
+    display: block;
+    background-color: #706667;
+    height: 30px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    border-bottom: 4px solid #A67244;
+}
+
+nav li a:hover {
+    background-color: #6E1B13;
+}
+
+
+
+.links{
+    text-align: center;
+}
+
+.links ul{
+    display: inline-block;
+  text-align: left;
+}
+
+p{
+    text-align: center;
+}
+
+iframe {
+    margin: 0 auto;
+    display: block;
+}
+    
+
+hr{
+    color: #A67244;
+    height:2px
+
+} 
+
+/* tablet styles */
+
+@media (min-width: 768px) {
+
+    body{ 
+        background-color: #706667;
+    }
+
+    nav{
+    text-align: center;
+     border-bottom: 2px solid black; 
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    background-color: #65858C;
+    color: #585459;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid;
+    box-shadow: 2px 2px 5px #262626;
+}
+
+nav li a:hover{
+    color:black;
+    background-color: crimson;
+}
+
+    #container{
+        padding: 10px;
+        border: 10px solid #D9D4BA;
+        border-radius: 15px;
+
+    }
+
+    hr{
+        color: #D9D4BA;
+        height: 3px;
+    }
+
+    h1{
+        color: black;
+    }
+
+    .links{
+        text-align: left;
+    }
+
+    .links ul{
+        display: inline-block;
+        text-align: left;
+    }
+  
+img {
+    display:block;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 60%;
+}
+}
+
+/* full screen styles */
+@media (min-width: 1400px){
+
+
+
+
+
+    body{
+        background-color: #65858C;
+    }
+
+    hr{
+        color: #262626;
+    }
+
+    nav{
+    text-align: center;
+     border-bottom: 2px solid black; 
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    background-color: #D9D4BA;
+    color: #274659;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid;
+    box-shadow: 2px 2px 5px #262626;
+}
+
+nav li a:hover{
+    color:black;
+    background-color: crimson;
+}
+
+.multi{
+    display: flex;
+}
+
+section, aside{
+    border-radius: 20px;
+    border: 6px solid #274659;
+    margin: 10px;
+    padding: 10px;
+}
+
+hr{
+    border: 5px solid black;
+}
+
+section{
+    width: 60%;
+}
+
+aside{
+    width: 40%
+
+}
+}
